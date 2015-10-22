@@ -18,26 +18,5 @@
         <td><span class="output" id="converted"></span></td>
       </tr>
     </table>
-    <button class="btn" onclick="startWorker()" >Start Worker</button>
-
-    <script>
-      var w;
-        function startWorker() {
-            if(typeof(Worker) !== "undefined") {
-                if(typeof(w) == "undefined") {
-                    w = new Worker("temperature.js");
-                }
-                w.onmessage = function(event) {
-                    document.getElementById("result").innerHTML = event.data;
-                };
-            } else {
-                document.getElementById("result").innerHTML = "Sorry! No Web Worker support.";
-            }
-        }
-        function stopWorker() {
-            w.terminate();
-            w = undefined;
-        }
-      </script>
   </body>
 </html>
