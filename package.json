@@ -4,7 +4,9 @@
   "description": "Practica 2 de STW (Conversor de Temperatura)",
   "main": "temperature.js",
   "scripts": {
-    "test": "open tests/index.html"
+   
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "karma": "./node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
