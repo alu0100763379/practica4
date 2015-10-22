@@ -28,18 +28,18 @@ html {
 }
 
 .btn {
-  background: #2488c7;
-  background-image: -webkit-linear-gradient(top, #2488c7, #3f738f);
-  background-image: -moz-linear-gradient(top, #2488c7, #3f738f);
-  background-image: -ms-linear-gradient(top, #2488c7, #3f738f);
-  background-image: -o-linear-gradient(top, #2488c7, #3f738f);
-  background-image: linear-gradient(to bottom, #2488c7, #3f738f);
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #000000);
+  background-image: -moz-linear-gradient(top, #ff0000, #000000);
+  background-image: -ms-linear-gradient(top, #ff0000, #000000);
+  background-image: -o-linear-gradient(top, #ff0000, #000000);
+  background-image: linear-gradient(to bottom, #ff0000, #000000);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
   font-family: Courier New;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 20px;
   padding: 10px 13px 10px 20px;
   text-decoration: none;
 }
