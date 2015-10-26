@@ -15,7 +15,6 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-	'testk.html',
       '*.js',
       'vendor/*.js'
     ],
@@ -23,7 +22,7 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
-	'gulpfile.js'
+      'gulpfile.js',  'static-server.js'
     ],
 
 
@@ -59,7 +58,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome', 'Firefox'],
+    browsers: ['Firefox'],
 
 
     // Continuous Integration mode

@@ -9,4 +9,3 @@ before_install:
 branches:
   only:
     - gh-pages
-script: tests/tests.js
